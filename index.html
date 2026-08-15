@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Hamid Eduardo Riba — Unity Developer, Game Programmer and Game Software Engineer.">
+  <title>Hamid Riba · Unity Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Hamid Riba home"><span class="brand-mark">HR</span><span>HAMID RIBA</span></a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#process" data-i18n="navProcess">Process</a>
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#resume" data-i18n="navResume">Résumé</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+      <button class="lang-toggle" type="button" aria-label="Cambiar idioma">ES</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="heroEyebrow">GAMEPLAY · UI · XR/VR/AR</p>
+        <h1>HAMID<br><span>EDUARDO RIBA</span></h1>
+        <p class="hero-role" data-i18n="heroRole">Unity Developer · Game Programmer · Game Software Engineer</p>
+        <p class="hero-intro" data-i18n="heroIntro">I build gameplay systems and immersive experiences that turn complex ideas into clear, memorable interactions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects" data-i18n="viewWork">View work</a>
+          <a class="button button-ghost" href="#contact" data-i18n="getInTouch">Get in touch</a>
+          <a class="button button-ghost resume-download" href="assets/documents/hamid-riba-resume.pdf" download data-i18n="viewResume">View résumé</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="code-card"><span>C#</span><strong>PLAYER.SYSTEM</strong><small>UNITY / XR / GAMEPLAY</small></div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section-pad">
+      <p class="section-number">01 / <span data-i18n="navProjects">Projects</span></p>
+      <div class="section-heading">
+        <h2 data-i18n="projectsTitle">Ideas become playable systems.</h2>
+        <p data-i18n="projectsIntro">Selected Unity projects spanning gameplay, game jams, educational experiences and interactive systems.</p>
+      </div>
+      <div id="project-grid" class="project-grid"></div>
+    </section>
+
+    <section id="process" class="process section-pad">
+      <p class="section-number">02 / <span data-i18n="navProcess">Process</span></p>
+      <div class="section-heading">
+        <h2 data-i18n="processTitle">From concept to a tested build.</h2>
+        <p data-i18n="processIntro">Hover over a stage to see the work behind the final experience.</p>
+      </div>
+      <div class="process-stage">
+        <div class="process-viewer" aria-live="polite">
+          <div id="process-media" class="process-media"></div>
+          <div class="viewer-caption"><span id="process-index">01</span><strong id="process-caption">Idea & Design</strong></div>
+        </div>
+        <div id="process-list" class="process-list"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about section-pad">
+      <div class="portrait-wrap"><img src="assets/images/profile.jpeg" alt="Hamid Eduardo Riba"></div>
+      <div class="about-copy">
+        <p class="section-number">03 / <span data-i18n="navAbout">About</span></p>
+        <h2 data-i18n="aboutTitle">Engineering logic, designed for play.</h2>
+        <p data-i18n="aboutP1">I am a Mechatronics Engineer and Unity developer based in Mexico City. My work combines programming, interaction design and immersive technology to create games and applications that feel intuitive to use.</p>
+        <p data-i18n="aboutP2">I have developed gameplay mechanics, interfaces and XR experiences in multidisciplinary teams, with a focus on reusable systems, technical problem-solving and clear player feedback.</p>
+        <div class="skills"><span>Unity</span><span>C#</span><span>Gameplay</span><span>XR/VR/AR</span><span>UI/UX</span><span>Git/GitHub</span><span>Blender</span><span>APIs</span></div>
+      </div>
+    </section>
+
+    <section id="resume" class="resume section-pad">
+      <p class="section-number">04 / <span data-i18n="navResume">Résumé</span></p>
+      <div class="section-heading"><h2 data-i18n="resumeTitle">Professional background.</h2></div>
+      <div class="resume-grid">
+        <article><span>2024 — 2026</span><h3>Spatial Computing Engineer / Game Programmer</h3><p>Banco Actinver · Mexico City</p></article>
+        <article><span>2024</span><h3>Junior Data Analyst / Data Consultant</h3><p>Infomedia · Mexico City</p></article>
+        <article><span>2023 — 2024</span><h3>XR Technical Designer</h3><p>Brita Inteligencia Artificial · Mexico City</p></article>
+        <article><span>2018 — 2023</span><h3 data-i18n="educationTitle">B.Eng. in Mechatronics Engineering</h3><p>UNAM · Mexico City</p></article>
+      </div>
+      <a class="button button-primary resume-download" href="assets/documents/hamid-riba-resume.pdf" download data-i18n="downloadResume">Download résumé</a>
+    </section>
+
+    <section id="contact" class="contact section-pad">
+      <p class="section-number">05 / <span data-i18n="navContact">Contact</span></p>
+      <h2 data-i18n="contactTitle">Let’s build something playable.</h2>
+      <a class="contact-email" href="mailto:hamidriba@hotmail.com">hamidriba@hotmail.com</a>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/hamid-riba-developer/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        <a href="https://github.com/Hamid92010" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a href="https://eduardo-riba.itch.io/" target="_blank" rel="noreferrer">itch.io ↗</a>
+        <a href="https://framevr.io/hamidroom" target="_blank" rel="noreferrer" data-i18n="virtualTour">Virtual tour ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer><span>HAMID RIBA · 2026</span><a href="#top" data-i18n="backTop">Back to top ↑</a></footer>
+  <script src="app.js"></script>
+</body>
+</html>
+
